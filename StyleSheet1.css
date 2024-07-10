@@ -16,14 +16,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-top: 15px;
-    padding-left: 5%;
+    padding-left: 25%;
     padding-right: 5%;
     font-weight: bold;
 }
 
 h1 {
     color: white;
-    font-size: 35px;
+    font-size: 45px;
+    
 }
 
 ul li {
