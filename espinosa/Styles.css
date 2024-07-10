@@ -1,0 +1,76 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #A9DFBF;
+    margin: unset
+}
+
+#txtResultado {
+    padding: 20px; /* relleno */
+    width: 290px; /* ancho */
+    background-color: #FEF9E7; /* Color de fondo */
+    border: outset; /* Estilo del borde (none; solid, dotted, dashed, inset, outset) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cuadro - Sombra */
+    cursor: zoom-in; /* Cursor */
+    text-align: right;
+    margin-bottom: 20px;
+    height: 20px;
+    font-size: 24px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    border: outset, dotted;
+    padding-bottom: 10px;
+}
+
+
+
+.btn-borrar,
+.btn-borrar-uno {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #EC7063;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-numero,
+.btn-raiz,
+.btn-punto {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #D2B4DE;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-operador,
+.btn-memoria,
+.btn-memoria,
+.btn-memoria,
+.btn-memoria,
+.btn-porcentaje,
+.btn-potencia,
+.btn-igual {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #58D68D;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
